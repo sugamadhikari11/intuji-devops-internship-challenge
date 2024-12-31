@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: tetsuya19217113/php-hello-world:latest
+    ports:
+      - "8080:80"
